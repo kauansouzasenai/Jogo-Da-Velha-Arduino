@@ -10,7 +10,7 @@
   var haVencedor;
 
   haVencedor = false;
-  var tabuleiro = createArray(9);
+  var tabuleiro = Array(9);
 
   // Limpar/zerar o tabuleiro
   var index;
@@ -34,9 +34,9 @@
   // Anotar/Registrar a jogada, do primeiro jogador
   velha = 1;
   do {
-    console.log(tabuleiro[0].ToString() + tabuleiro[1] + tabuleiro[2]);
-    console.log(tabuleiro[3].ToString() + tabuleiro[4] + tabuleiro[5]);
-    console.log(tabuleiro[6].ToString() + tabuleiro[7] + tabuleiro[8]);
+    console.log(tabuleiro[0].toString() + tabuleiro[1] + tabuleiro[2]);
+    console.log(tabuleiro[3].toString() + tabuleiro[4] + tabuleiro[5]);
+    console.log(tabuleiro[6].toString() + tabuleiro[7] + tabuleiro[8]);
     jogada = "";
     console.log("Digite a posição da sua peça JOGADOR " + jogadorDaVez);
     jogada = window.prompt("Enter a value for jogada");
@@ -118,9 +118,9 @@
   } else {
     console.log("Deu VELHA!!!");
   }
-  console.log(tabuleiro[0].ToString() + tabuleiro[1] + tabuleiro[2]);
-  console.log(tabuleiro[3].ToString() + tabuleiro[4] + tabuleiro[5]);
-  console.log(tabuleiro[6].ToString() + tabuleiro[7] + tabuleiro[8]);
+  console.log(tabuleiro[0].toString() + tabuleiro[1] + tabuleiro[2]);
+  console.log(tabuleiro[3].toString() + tabuleiro[4] + tabuleiro[5]);
+  console.log(tabuleiro[6].toString() + tabuleiro[7] + tabuleiro[8]);
 }
 
 function validaPosicao(entrada) {
@@ -133,7 +133,7 @@ function validaPosicao(entrada) {
   entradaValida = false;
 
   // A entra da jogadanão pode ter mais que 3 caracteres de comprimento.
-  if (entrada.length() == 3) {
+  if (entrada.length == 3) {
     // Verifica o primeiro caracter se há somente caracteres válidos (0,1,2).
     if (
       entrada.charAt(0) == "0" ||
