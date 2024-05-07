@@ -3,8 +3,6 @@
 **Autor:** Marcio Denadai  
 **Data:** 29/04/2024
 
-### Teste de conflito no git
-
 **Objetivo do Jogo:** Este jogo tem como objetivo principal promover a diversão e o aprendizado através de desafios estratégicos. Os jogadores devem buscar formar uma linha, coluna ou diagonal com seu símbolo antes que o adversário consiga, incentivando o pensamento estratégico e a tomada de decisões rápidas.
 
 **Público-Alvo:** O jogo é adequado para todas as idades e pode ser uma ótima ferramenta educativa para crianças, adolescentes e adultos. É ideal para quem busca aprender de forma lúdica e interativa.
