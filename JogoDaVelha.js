@@ -1,4 +1,4 @@
-﻿function main() {
+﻿function JogoDaVelha() {
   // Criar o tabuleiro e jogadores, zerar as variáveis.
   //
   // 0: Posição vazia
@@ -34,9 +34,9 @@
   // Anotar/Registrar a jogada, do primeiro jogador
   velha = 1;
   do {
-    console.log(tabuleiro[0].toString() + tabuleiro[1] + tabuleiro[2]);
-    console.log(tabuleiro[3].toString() + tabuleiro[4] + tabuleiro[5]);
-    console.log(tabuleiro[6].toString() + tabuleiro[7] + tabuleiro[8]);
+    console.log(tabuleiro[0] + tabuleiro[1] + tabuleiro[2]);
+    console.log(tabuleiro[3] + tabuleiro[4] + tabuleiro[5]);
+    console.log(tabuleiro[6] + tabuleiro[7] + tabuleiro[8]);
     jogada = "";
     console.log("Digite a posição da sua peça JOGADOR " + jogadorDaVez);
     jogada = window.prompt("Enter a value for jogada");
@@ -118,9 +118,9 @@
   } else {
     console.log("Deu VELHA!!!");
   }
-  console.log(tabuleiro[0].toString() + tabuleiro[1] + tabuleiro[2]);
-  console.log(tabuleiro[3].toString() + tabuleiro[4] + tabuleiro[5]);
-  console.log(tabuleiro[6].toString() + tabuleiro[7] + tabuleiro[8]);
+  console.log(tabuleiro[0] + tabuleiro[1] + tabuleiro[2]);
+  console.log(tabuleiro[3] + tabuleiro[4] + tabuleiro[5]);
+  console.log(tabuleiro[6] + tabuleiro[7] + tabuleiro[8]);
 }
 
 function validaPosicao(entrada) {
