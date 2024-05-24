@@ -22,3 +22,5 @@
 - Introduz conceitos básicos de programação e eletrônica de forma prática e divertida.
 
 **Conclusão:** O Jogo da Velha com Arduino é uma atividade educativa e divertida, que pode ser utilizada como ferramenta de ensino em sala de aula ou como atividade extracurricular. Além de promover o aprendizado, também estimula a criatividade e a socialização entre os jogadores.
+
+>Simulação: https://wokwi.com/projects/380389111501507585
